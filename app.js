@@ -4,7 +4,7 @@ var outputDiv = document.querySelector("#textarea2");
 
 
 function getTranslationURL(test){
-    return serverURL =  "https://api.funtranslations.com/translate/asian-accent.json" + "?" + "text=" + test;
+    return serverURL =  "https://api.funtranslations.com/translate/groot.json" + "?" + "text=" + test;
 }
 
 function errorHandler(error){
